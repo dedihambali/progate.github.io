@@ -1,0 +1,20 @@
+@media(max-width: 1000px) {
+  .item {
+    width: 50%;
+  }
+
+  .item-item .node-js {
+    margin: 0 25%;
+  }
+}
+
+@media(max-width: 720px) {
+  .item {
+    width: 100%;
+  }
+
+  .item-item .node-js {
+   margin: 0; 
+  }
+}
+

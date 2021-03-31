@@ -3,7 +3,7 @@
 }
 
 .ekstra1 {
-    height: 500px;
+    
     padding-bottom: 80px;
     background-color: #f9f9f9;
     text-align: center;
@@ -29,7 +29,7 @@
 }
 
 .item:hover {
-    background-color: chocolate;
+    background-color: rgb(210, 105, 30, 0.2);
 }
 
 .item-icon {
@@ -85,4 +85,8 @@
     box-shadow: none;
     position: relative;
     top: 7px
+}
+
+.clear {
+    clear: left;
 }
