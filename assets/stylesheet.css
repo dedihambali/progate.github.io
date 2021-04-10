@@ -90,3 +90,27 @@
 .clear {
     clear: left;
 }
+
+.loading {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(145, 145, 145, 0);
+    border-radius: 100%;
+    border-top-color: #007df1;
+    border-bottom-color:  #10e710; 
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  
+    animation: spinning 1s linear infinite;
+  
+  }
+  
+  @keyframes spinning{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+  }
